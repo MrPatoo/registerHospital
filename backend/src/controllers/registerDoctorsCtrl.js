@@ -30,7 +30,7 @@ registerDoctorsCtrl.register = async (req, res) =>{
         
         Jsonwebtoken.sign(
             //1-que voy a guardar
-            {id: newEmployee._id},
+            {id: newDoctor._id},
 
             //2-secreto
             config.JWT.secret,

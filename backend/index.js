@@ -1,5 +1,8 @@
+//importo el archivo app.js
 import app from "./app.js"
+//importo el archivo de conexión de la BD
 import "./database.js"
+//importo el archivo config
 import { config } from "./src/config.js";
 
 //creo una función que ejecuta el servidor
